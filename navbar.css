@@ -1,0 +1,130 @@
+body{
+
+
+    height: 100vh;
+    background: url(starter-code/assets/destination/background-destination-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    overflow-x: hidden;
+}
+.div1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.div2{
+    gap: 50px;
+    margin-right: 100px;
+    display: flex;
+    -webkit-backdrop-filter: blur(50px); 
+    backdrop-filter: blur(50px);
+    height: 100px;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    margin-right: -100px;
+    padding-right: 100px;
+    
+}
+.btn1{
+
+
+    background-color: transparent;
+    color: white;
+    border: 0;
+    width: 130px;
+    font-size: 14px;
+
+}
+.btn1:hover{
+
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.63);
+    
+
+}
+.img1{
+    width: 70px;
+    height: 70px;
+}
+.div3{
+
+    width: 900px;
+    background-color: rgba(167, 167, 167, 0.185);
+    height: 5px;
+    margin-right: -200px;
+    z-index: 5;
+}
+.div4{
+    margin-top: 200px;
+    display: flex;
+    
+    padding: 100px;
+}
+
+h1{
+
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 17px;
+}
+h2{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+
+
+.btn2{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    font-size: 17px;
+    border: 0;
+    margin-top: 100px;
+}
+.btn2:hover{
+
+    background-color: azure;
+}
+
+.p1{
+    color: rgba(255, 255, 255, 0.63);
+    width: 500px;
+    margin-top: -90px;
+
+
+}
+.div10{
+    display: flex;
+    align-items: center;
+    gap: 800px;
+    padding: 100px;
+}
+
+h1{
+
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+.div6{
+    display: flex;
+
+    margin-top: -250px;
+}
+.div7{
+
+    display: flex;
+    gap: 50px;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
